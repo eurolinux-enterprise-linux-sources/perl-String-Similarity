@@ -1,6 +1,6 @@
 Name:           perl-String-Similarity
 Version:        1.04
-Release:        10%{?dist}
+Release:        8%{?dist}
 Summary:        Calculates the similarity of two strings
 License:        GPLv2+
 Group:          Development/Libraries
@@ -44,12 +44,6 @@ make test
 %{_mandir}/man3/*
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.04-10
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.04-9
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.04-8
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
